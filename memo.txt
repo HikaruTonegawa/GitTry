@@ -1,1 +1,36 @@
-git remote add origin https://github.com/HikaruTonegawa/GitTry.git
+#初期設定(※developのクローン作成)
+$ git clone -b develop https://github.com/HikaruTonegawa/GitTry.git
+
+#リモートリポジトリ情報の追加
+$ git remote add origin https://github.com/HikaruTonegawa/GitTry.git
+
+#ローカルブランチ一覧（カレントブランチには * が付く）
+$ git branch
+
+#リモートブランチ一覧
+$ git branch -r
+
+#新規ブランチを作成
+$ git branch <New Branch name>
+
+#ブランチの切替
+$ git checkout <Next Branch name>
+
+#ブランチの削除（警告なしは -D を使用）
+$ git branch -d <Branch name>
+
+#ファイルの作成/変更/削除をgitのインデックスに追加する（git add）
+$ git add <file name>
+
+#変更結果をローカルリポジトリにコミットする（git commit）
+$ git commit -m "<coment>"
+
+#upstream branchが存在していない場合（1回目以降のcommit）
+ ※ originが示すのはデフォルトのリポジトリの場所と覚えておけばOK
+$ git push --set-upstream origin <Branch name>
+
+#upstream branchがすでに存在している場合（2回目以降のcommit）
+$ git push origin <Branch name>
+
+
+
