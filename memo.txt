@@ -31,6 +31,3 @@ $ git push --set-upstream origin <Branch name>
 
 #upstream branchがすでに存在している場合（2回目以降のcommit）
 $ git push origin <Branch name>
-
-
-
