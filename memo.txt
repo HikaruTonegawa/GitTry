@@ -31,3 +31,16 @@ $ git push --set-upstream origin <Branch name>
 
 #upstream branchがすでに存在している場合（2回目以降のcommit）
 $ git push origin <Branch name>
+
+
+◆DB関連
+・https://techacademy.jp/magazine/10030
+
+＃マイグレーションファイルを作成
+（データベースの中身を保持したまま項目を追加したり、変更したりということが可能））
+$ rails g migration マイグレーションファイル名 カラム名:型
+
+＃モデル作製
+$ rails g model モデル名 カラム名:型
+
+
